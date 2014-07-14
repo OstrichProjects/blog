@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+  font-family: "Cicle", sans-serif;
+}
+
+.topbar, .sidebar {
+	text-align: center;
+	font-family: "Ostrich", sans-serif;
+	font-size: 64px;
+}
+
+.sidebar {
+	position: absolute;
+	top: 33%;
+	-webkit-transform: translateY(-50%);
+}
+
+.topbar a, .sidebar a {
+	color: black;
+	text-decoration: none;
+}
+
+.topbar a:hover, .sidebar a:hover {
+	text-decoration: none;
+}
+
+.site-description {
+	font-family: "Cicle";
+	font-size: 22px;
+}
+
+/* Logo */
+.logo {
+	font-family: "Ostrich", sans-serif;
+	font-size: 100px;
+	text-align: center;
+	padding-bottom: 0px;
+}
+
+.logo:hover .char1, .logo:hover .char2, .logo:hover .char3 {
+	left:0;
+	top:0;
+}
+
+.char1, .char2, .char3, .char1:after, .char2:after, .char3:after {
+	transition: 1s;
+}
+
+.char1:after {
+	content: "onathan";
+	font-size: 75px;
+	opacity: 0;
+}
+
+.char2:after {
+	content: ".";
+	opacity: 0;
+}
+
+.char3:after {
+	content: "strander";
+	font-size: 75px;
+	opacity: 0;
+}
+
+.logo:hover .char1:after, .logo:hover .char2:after, .logo:hover .char3:after {
+	display: inline;
+	opacity: 1;
+	position: relative;
+}
+
+.logo .char1 {
+	position: relative;
+	top: 100px;
+	left: 97px;
+}
+.logo .char2 {
+	position: relative;
+	top: 75px;
+	left: -125px;
+}
+.logo .char3 {
+	position: relative;
+	top: -68px;
+	left: 123px;
+}
+
+@media (min-width: 568px) {
+	.logo .char1 {
+		left: 217px;
+		top: 25px;
+	}
+
+	.logo .char2 {
+		top: 0;
+		left: -5px;
+	}
+
+	.logo .char3 {
+		top: 0;
+		left: -43px;
+	}
+}
+
+@media (min-width: 992px) {
+	.char1:after, .char3:after {
+		font-size: 40px;
+	}
+	.logo .char1 {
+		top: 100px;
+		left: 63px;
+	}
+	.logo .char2 {
+		top: 75px;
+		left: -69px;
+	}
+	.logo .char3 {
+		top: -68px;
+		left: 85px;
+	}
+}
+
+@media (min-width: 1020px) {
+	.char1:after, .char3:after {
+		font-size: 50px;
+	}
+	.logo .char1 {
+		top: 100px;
+		left: 78px;
+	}
+	.logo .char2 {
+		top: 75px;
+		left: -82px;
+	}
+	.logo .char3 {
+		top: -68px;
+		left: 100px;
+	}
+}
+
+@media (min-width: 1804px) {
+	.logo .char1 {
+		top: 25px;
+		left: 155px;
+	}
+	.logo .char2 {
+		top: 0;
+		left: -5px;
+	}
+	.logo .char3 {
+		top: 0px;
+		left: -45px;
+	}
+}
+
+/* Post info styling */
+
+.posts {
+	padding: 0;
+}
+
+.post-info {
+	list-style-type: none;
+	font-family: "Cicle";
+}
+
+.post-date {
+	font-size: 20px;
+}
+
+.post-title {
+	color: #c7254e;
+	font-size: 36px;
+}
+
+.post-title:before {
+	content: "{";
+	opacity: 0;
+	position: relative;
+	left: 30px;
+	transition: 0.3s;
+	font-size: 0;
+}
+
+.post-title:after {
+	content: "}";
+	opacity: 0;
+	position: relative;
+	left: -30px;
+	transition: 0.3s;
+	font-size: 0;
+}
+
+.post-title:hover {
+	color: #c7254e;
+	text-decoration: none;
+}
+
+.post-title:hover .post-title:after, .post-title:hover .post-title:before {
+	opacity: 1;
+	left: 0;
+	font-size: 36px;
+	padding: 0 5px;
+}
+
+.post-excerpt, .post-content {
+	font-size: 18px;
+}
+
+/* Tag style */
+
+.tags {
+	list-style-type: none;
+	padding: 0 0 10px;
+}
+
+.tag {
+	display: inline-block;
+	color: white;
+	font-size: 16px;
+	background-color: black;
+	padding: 0 5px;
+}
+
+/* Post Style */
+
+.post-header {
+	font-family: "Cicle";
+	font-size: 36px;
+}

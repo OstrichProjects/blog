@@ -1,0 +1,10 @@
+# Site settings
+title: Ostrich Rumblings
+email: jonathanost@gmail.com
+description: "This is my blog where I will regularly (hopefully) write about engineering, literature, tech, and everything else in my life."
+baseurl: ""
+url: "http://jonost.me"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
