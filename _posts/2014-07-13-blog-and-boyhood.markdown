@@ -5,9 +5,6 @@ date:	2014-07-13 23:17:00
 tags:	film general
 ---
 
-
-#Hello
-
 I have never been a great writer.  As a soon-to-be graduate student, I have decided that should probably change or at least be a competent writer.  I am a child of the Internet so the only way that I know how to write is to do it on a computer and put it somewhere on the world wide web so here we go.
 
 Most of the topics that I write about will probably focus on the present.  I have been reading a lot as well as consuming television and film at my normal rate while waiting to begin my Master's degree in the Fall.  The books that I have been reading have mostly been fiction; "American Gods" and "Us Conductors" were my last two.  But instead of writing about Neil Gaiman or the invention of the theremin, I want to focus on the movie that I saw yesterday that currently holds a [99 metascore on Metacritic](http://www.metacritic.com/movie/boyhood) after 29 critic reviews and a [100% on Rotten Tomatoes](http://www.rottentomatoes.com/m/boyhood/) after 99 critic reviews.  This movie took 12 years to make and it wouldn't have been possible to make it any faster.  The movie is Richard Linklater's most recent completed film, "Boyhood".
